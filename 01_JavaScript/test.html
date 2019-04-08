@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+    var num1 = 10;
+    var num2 = 20;
+    var num3 = 3;
+    var num4 = "10";
+    var result;
+
+    result = num1 !== num4;
+    // document.write(result, "<br>");
+  </script>
+
+  <script>
+    // 제어문 (Switch ~ case)
+    var game = "바위";
+    var num;
+
+    switch(game) {
+      case "가위": 
+          num = 1;
+          break;
+      case "바위":
+          num = 2;
+          break;
+      case "보":
+          num = 3;
+          break;
+      default:
+          num = "error";
+    }
+    document.write(num,"<br>");
+    
+    // 반복문 (while)
+    var num = 1;
+
+    while(num<=5) {
+      document.write("hello", num, "<br>");
+      num++;
+    }
+
+    // 반복문 (for)
+    for(var cnt=1; cnt <=5; cnt++) {
+      document.write("for문 반복 test...",cnt,"<br>");
+    }
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
